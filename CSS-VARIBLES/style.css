@@ -5,6 +5,8 @@
   --primary-clr: rgb(84, 112, 86);
   --heading-clr: rgb(44, 12, 160);
   --radius: 1em;
+/*   these are the values assigned to varaibles inside root element so it could be globally avaliable for every other element */
+  
 }
 
 section {
