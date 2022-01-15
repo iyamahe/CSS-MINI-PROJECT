@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+:root {
+  --primary-clr: hsl(208, 40%, 35%);
+  --secondary-clr: hsl(285, 15%, 42%);
+  --tertiory-clr: hsl(342, 43%, 60%);
+  --fourth-clr: hsl(354, 100%, 73%);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(17, 20, 32);
+  color: hsl(0, 0%, 100%);
+}
+.container {
+  /* background-color: rgba(165, 103, 223, 0.527); */
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 80%;
+  max-width: 50rem;
+}
+.heading {
+  line-height: 1.5;
+}
+h1 {
+  font-size: 1.7rem;
+}
+h2 {
+  font-weight: 200;
+}
+clr-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  width: 70%;
+  height: 46%;
+}
+clr-container > * {
+  flex-basis: 20%;
+  margin: 2px;
+  max-width: 10ch;
+  background-color: bisque;
+  border-radius: 0.6rem;
+  transition: color, 0.3s;
+}
+.color1 {
+  background-color: var(--primary-clr);
+}
+.color2 {
+  background-color: var(--secondary-clr);
+}
+.color3 {
+  background-color: var(--tertiory-clr);
+}
+.color4 {
+  background-color: var(--fourth-clr);
+}
+.color1:hover {
+  background-color: #41436a;
+}
+.color2:hover {
+  background-color: #984063;
+}
+.color3:hover {
+  background-color: #f64668;
+}
+.color4:hover {
+  background-color: #fe9677;
+}
